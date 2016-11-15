@@ -78,6 +78,7 @@ namespace SingleResponsibilityPrinciple
                 return false;
             }
             //
+            //
             decimal tradePrice;
             if (!decimal.TryParse(fields[2], out tradePrice))
             {
