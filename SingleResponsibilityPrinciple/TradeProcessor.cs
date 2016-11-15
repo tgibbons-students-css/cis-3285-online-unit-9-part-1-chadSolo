@@ -77,7 +77,7 @@ namespace SingleResponsibilityPrinciple
                 LogMessage("WARN", " Trade amount on line {0} is too small: '{1}'", currentLine, fields[1]);
                 return false;
             }
-
+            //
             decimal tradePrice;
             if (!decimal.TryParse(fields[2], out tradePrice))
             {
